@@ -1,0 +1,12 @@
+[submodule "microfrontend-orchestrator"]
+	path = microfrontend-orchestrator
+	url = https://github.com/beatrizsantiago/microfrontend-orchestrator.git
+[submodule "bytebank-styleguide"]
+	path = bytebank-styleguide
+	url = https://github.com/beatrizsantiago/bytebank-styleguide.git
+[submodule "bytebank-landing"]
+	path = bytebank-landing
+	url = https://github.com/beatrizsantiago/bytebank-landing.git
+[submodule "bytebank-panel"]
+	path = bytebank-panel
+	url = https://github.com/beatrizsantiago/bytebank-panel.git
