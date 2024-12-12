@@ -1,0 +1,29 @@
+services:
+  styleguide:
+    build:
+      context: ./bytebank-styleguide
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+  panel:
+    build:
+      context: ./bytebank-panel
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8082"
+  landing:
+    build:
+      context: ./bytebank-landing
+      dockerfile: Dockerfile
+    ports:
+      - "8083:8083"
+  orchestrator:
+    build:
+      context: ./microfrontend-orchestrator
+      dockerfile: Dockerfile
+    ports:
+      - "9000:9000"
+    depends_on:
+      - styleguide
+      - panel
+      - landing
