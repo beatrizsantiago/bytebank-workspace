@@ -30,8 +30,12 @@ npm install
 Iniciar projeto no modo dev:
 
 ```bash
-npm run dev
+npm start
 ```
 
 Com o projeto rodando, abra [http://localhost:9000](http://localhost:9000) com seu navegador.
+
+### Publicação da AWS
+
+URL: [bytebank-microfrontend](https://d2wvhi2la682st.cloudfront.net/)
 
