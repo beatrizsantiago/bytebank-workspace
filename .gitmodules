@@ -10,3 +10,6 @@
 [submodule "bytebank-panel"]
 	path = bytebank-panel
 	url = https://github.com/beatrizsantiago/bytebank-panel.git
+[submodule "fiap-bytebank-api"]
+	path = fiap-bytebank-api
+	url = https://github.com/beatrizsantiago/fiap-bytebank-api.git
