@@ -1,4 +1,10 @@
 services:
+  backend:
+    build:
+      context: ./fiap-bytebank-api
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
   styleguide:
     build:
       context: ./bytebank-styleguide
